@@ -1,4 +1,4 @@
-Blender to Metro (.model) Exporter
+Blender to Metro (.model) Exporter. 
 A simple Blender 3.0+ addon for exporting 3D objects to the 4A Engine .model format (Metro Exodus).
 
 Features:
