@@ -1,6 +1,37 @@
 Blender to Metro (.model) Exporter. 
 A simple Blender 3.0+ addon for exporting 3D objects to the 4A Engine .model format (Metro Exodus).
 
+### RU
+
+Имеется возможность:
+- Применения модификаций и трансформаций перед экспортом.
+- Расчёт Vertex AO (Ambient Occlusion) перед экспортом.
+- Поддержка LOD-ов: уровней детализации модели (т.е. LOD 0, LOD 1, LOD 2...)
+- Генерация коллизии (.nxcform33x)
+
+Требования:
+- Blender 3.0.0 или новее
+
+Установка: 
+1. Загрузить последнюю версию аддона со страницы релизов.
+2. Открыть Blender.
+3. Перейти во вкладку Edit > Preferences > Add-ons.
+4. Нажать Install... в верхнем правом углу.
+5. Выбрать загруженный .zip архив и нажать на Install Add-on.
+6. Найти "Import-Export: Metro Model Exporter" и включить его.
+
+Как использовать:
+1. Подготовьте модель. Если требуется кастомная коллизия, подготовьте дополнительные модели с суффиксом _col в конце имени (например, my_svetofor_collision).
+2. Вкладка File > Export > Metro Exodus Model (.model).
+3. В панели справа примените подходящую конфигурацию: версия движка, уровень LOD, просчитать AO, применить модификаторы и т.д.
+4. Выберете папку и нажмите Export.
+
+Credits:
+- AI: ИИ использовался для ревёрса и анализа бинарников .model, структуры.
+- APAmk2: blender-uEngine by APAmk использовался для начального понимания структуры .model формата.
+
+### EN
+
 Features:
 - Automatically applies modifiers and transforms upon export.
 - Calculates Vertex AO (Ambient Occlusion) directly during export.
@@ -27,15 +58,3 @@ How to Use:
 Credits:
 - AI Assistance: AI was utilized during development to analyze and reverse-engineer the binary .model file format structures.
 - APAmk2: blender-uEngine by APAmk2 was used as a reference to understand the structure and reading process of the .model format.
-
-License:
-Copyright (c) 2026 VesTank
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use and modify the Software for personal use.
-However, distribution of the Software or any modified versions of it under the original creator's name, or under the same product name, is strictly prohibited.
-
-If you use code from this project or redistribute modified versions under a different name, proper credit and attribution to the original author must be provided.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
