@@ -1,7 +1,27 @@
 Copyright (c) 2026 VesTank
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use and modify the Software for personal use. However, distribution of the Software or any modified versions of it under the original creator's name, or under the same product name, is strictly prohibited.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated files (the "Software"), to use, copy, and
+modify the Software, and to publish or distribute the Software or modified
+versions of it, subject to the following conditions:
 
-If you use code from this project or redistribute modified versions under a different name, proper credit and attribution to the original author must be provided.
+1. Attribution. Any publication or distribution of the Software or of a
+   modified version of it must clearly credit the original author (VesTank)
+   and include a link to the original repository. The credit must be
+   visible in the project's README or description, and this copyright
+   notice must be kept in the source files.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+2. No misrepresentation. You must not present the Software or any part of it
+   as your own work, and you must not imply that the original author
+   endorses your version.
+
+Publishing or distributing the Software, or substantial parts of it,
+without the credit required above is not permitted.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
